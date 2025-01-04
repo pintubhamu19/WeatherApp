@@ -1,0 +1,15 @@
+.SearchBox {
+    text-align: center;
+    margin-top: 4rem !important;
+}
+
+.input:hover {
+    background-color: rgb(171, 214, 232);
+}
+
+
+@media(max-width:200px) {
+    .input {
+        width: 65%;
+    }
+}

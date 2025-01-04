@@ -1,0 +1,25 @@
+.InfoBox {
+    text-align: center;
+}
+
+.InfoBox h1 {
+    color: black;
+    padding-top: 2rem;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.cardContainer p {
+    padding: 0.5rem;
+}
+
+
+@media(max-width:200px) {
+    .InfoBox h1 {
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.weather {
+    background-color: skyblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 2.5rem;
+    margin-top: 0 !important;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:200px) {
+    .weather {
+        font-size: 1.3rem;
+        padding-top: 10px;
+    }
+}
